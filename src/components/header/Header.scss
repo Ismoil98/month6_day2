@@ -1,0 +1,33 @@
+.header {
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    a {
+        color: #211F54;
+        transition: color 0.4s ease;
+        &:hover {
+            color: rgb(235, 41, 7);
+        }
+    }
+    ul {
+        width: 430px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    button {
+        padding: 18px 24px;
+        border-radius: 10px;
+        border: 1px solid #0075FF;
+        color: white;
+        background-color: #0075FF;
+        transition: all 0.4s ease;
+        &:hover {
+            color: #0075FF;
+            background-color: white;
+        }
+    }
+}
